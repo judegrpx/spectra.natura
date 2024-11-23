@@ -48,10 +48,11 @@
     background-color: #0F1923;
     height: 100vh;
     width: 100vw;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
     overflow-x: hidden;
     perspective: 100pt;
     scroll-behavior: smooth;
+
 }
 
 #parallax {
@@ -64,6 +65,8 @@
     z-index: -1;
     transition-duration: 1s;
     transition-timing-function: ease-out;
+    margin-top: 200vh;
+    transition-duration: 2s;
 }
 
 #layer1, #layer2, #layer3, #layer4, #layer5, #layer6, #layer7, #layer8, #layer9, #layer10, #layer11, #layer111, #layer12 {
@@ -146,21 +149,39 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 20pt;
-    row-gap: 20pt;
+    column-gap: 50pt;
+    row-gap: 50pt;
     align-content: stretch;
 }
 
-section div {
+section > div {
     /* border: solid 1pt rgb(16, 27, 57, 0.4); */
     border: solid 1pt rgb(16, 27, 57, 0.4);
     border-radius: 5pt;
     padding: 20pt 40pt;
     width: auto;
-    display:inline;
+    display: flex;
+    flex-direction: row;
     flex-grow: 1;
     cursor: pointer;
 }
+
+section > div > img.left {
+    height: 100pt;
+    margin: -30pt 20pt 0pt -80pt;
+}
+
+section > div > img.right {
+    height: 100pt;
+    transform: rotate(180deg);
+    margin: 0pt 20pt -50pt -60pt;
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+
 
 .type {
     /* border-bottom: solid 1pt rgb(16, 27, 57, 0.25); */
@@ -228,8 +249,8 @@ section div {
     position: absolute;
     right: -10pt;
     top: -10pt;
-    width: 20pt;
-    height: 20pt;
+    width: 25pt;
+    height: 25pt;
     background-color: white;
     border: solid 1pt rgba(16, 27, 57, 0.4);
     border-radius: 20px;
