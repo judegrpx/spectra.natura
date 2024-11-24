@@ -156,7 +156,6 @@
     font-family: "Inter", sans-serif;
     color: white;
     font-size: 150pt;
-    z-index: 0;
     position: relative;
     transform: translate(0%, -100%) translateZ(-40pt) scale(1);
     z-index: -1;
@@ -176,6 +175,7 @@ section {
     row-gap: 50pt;
     align-content: stretch;
     z-index: 1;
+    position: relative;
 }
 
 section>div {
