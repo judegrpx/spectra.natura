@@ -31,7 +31,7 @@ var info = {
         "piece": "<img src='./assets/visual/olivo/work.jpg'>",
         "description": "The artwork shows Te Tifi, which symbolizes the beauty of the world we aspire to have. However, the broken polygons represent the destruction made by human actions. The mirror reflects the world we dream of, but it is slowly shattering due to humans' harmful activities.<br><br>Te Fiti's color transitioning from dark to light shades downward signifies the gradual changes in our environment. The blue background serves as a reflection for humans to see ourselves. As we look into the mirror, let us remember the beauty of the world given to us.",
     },
-    "eugenio" : {//missing assets
+    "eugenio" : {
         "artist": "Philip Eugenio",
         "about": "Philip James G. Eugenio, also known as Ames, is a second-year student at the University of the Philippines Los Baños majoring in Forestry. Philip, who comes all the way from Paniqui, Tarlac. He loves music beyond all else, but he has no taste for art. He expresses his views about the world through his passion, music. He is incredibly flexible and passionate about a wide range of activities, including socializing, performing instruments, and sports.",
         "profile": "./assets/visual/eugenio/icon.jpg",
@@ -105,7 +105,7 @@ var info = {
     },
     "tandang" : {
         "artist": "Frannieczeska Erene U. Tandang",
-        "about": "",
+        "about": "FRANNIECZESKA ERENE U. TANDANG, born on February 9, 2006, and raised in Mayondon, Los Baños, Laguna, is the eldest daughter of Johnnavie Uy and Wraeuss Tandang. With a keen entrepreneurial spirit, she envisions herself becoming a successful business owner. However, recognizing the transformative potential of technology in the modern world, she has chosen to first establish a strong foundation in the IT field.<br><br>Now pursuing a Bachelor of Science in Computer Science (BSCS) at the University of the Philippines Los Baños (UPLB), Frannieczeska is dedicated to developing her skills in programming and web development. Her academic journey is driven by a passion for innovation and a desire to harness technology to solve real-world problems. Beyond personal growth, she is motivated by a deep sense of community service and envisions using her technical expertise to contribute meaningfully to society.",
         "profile": "./assets/visual/tandang/icon.png",
         "title": "Currents of Connection: Halong Bay’s Flow of Science and Art",
         "piece": "<img src='./assets/visual/tandang/work.png'>",
