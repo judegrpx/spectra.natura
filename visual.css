@@ -60,6 +60,7 @@
     align-items: center;
     height: 100%;
     transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     z-index: -1;
     transition-timing-function: ease-out;
     margin-top: 200vh;
@@ -88,66 +89,79 @@
 
 #layer1 {
     transform: translateZ(-100pt) scale(2.1);
+    -webkit-transform: translateZ(-100pt) scale(2.1);
     /*adjust*/
 }
 
 #layer2 {
     transform: translateZ(-100pt) scale(2.1);
+    -webkit-transform: translateZ(-100pt) scale(2.1);
     /*adjust*/
 }
 
 #layer3 {
     transform: translateZ(-98pt) scale(calc(1 + 98/99));
+    -webkit-transform: translateZ(-98pt) scale(calc(1 + 98/99));
     /*adjust*/
 }
 
 #layer4 {
     transform: translateZ(-70pt) scale(calc(1 + 70/99));
+    -webkit-transform: translateZ(-70pt) scale(calc(1 + 70/99));
     /*adjust*/
 }
 
 #layer5 {
     transform: translateZ(-60pt) scale(calc(1 + 60/99));
+    -webkit-transform: translateZ(-60pt) scale(calc(1 + 60/99));
     /*adjust*/
 }
 
 #layer6 {
     transform: translateZ(-50pt) scale(calc(1 + 50/99));
+    -webkit-transform: translateZ(-50pt) scale(calc(1 + 50/99));
     /*adjust*/
 }
 
 #layer7 {
     transform: translateZ(-30pt) scale(calc(1 + 30/99));
+    -webkit-transform: translateZ(-30pt) scale(calc(1 + 30/99));
     /*adjust*/
 }
 
 #layer8 {
     transform: translateZ(-20pt) scale(calc(1 + 20/99));
+    -webkit-transform: translateZ(-20pt) scale(calc(1 + 20/99));
     /*adjust*/
 }
 
 #layer9 {
     transform: translateZ(-10pt) scale(calc(1 + 10/99));
+    -webkit-transform: translateZ(-10pt) scale(calc(1 + 10/99));
     /*adjust*/
 }
 
 #layer10 {
     transform: translateZ(-0pt) scale(1);
+    -webkit-transform: translateZ(-0pt) scale(1);
     /*adjust*/
 }
 
 #layer111 {
     transform: translateZ(0pt) scale(1);
+    -webkit-transform: translateZ(0pt) scale(1);
     /*adjust*/
 }
 
 #layer11 {
     transform: translateZ(0pt) scale(1);
+    -webkit-transform: translateZ(0pt) scale(1);
     /*adjust*/
 }
 
 #layer12 {
     transform: translateZ(1pt) scale(2);
+    -webkit-transform: translateZ(1pt) scale(2);
     /*adjust*/
 }
 
@@ -156,9 +170,9 @@
     font-family: "Inter", sans-serif;
     color: white;
     font-size: 200pt;
-    z-index: 0;
     position: relative;
     transform: translate(0%, -20%) translateZ(-80pt) scale(1);
+    -webkit-transform: translate(0%, -20%) translateZ(-80pt) scale(1);
     z-index: -1;
     font-weight: 800;
     text-transform: uppercase;
@@ -167,7 +181,7 @@
 
 section {
     /* background-color: #92c3ca; */
-    background-color:#0F1923;
+    background-color: #0F1923;
     padding: 0pt 100pt;
     display: flex;
     flex-direction: row-reverse;
@@ -210,6 +224,7 @@ section>div>img.left {
 section>div>img.right {
     height: 100pt;
     transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
     margin: 0pt 20pt -50pt -60pt;
 }
 
@@ -271,6 +286,7 @@ section>div>img.right {
     transition-timing-function: ease-out;
     transition-duration: 0.25s;
     transform-origin: 0.5 0.5;
+    -webkit-transform-origin: 0.5 0.5;
 }
 
 #content {
@@ -328,7 +344,8 @@ section>div>img.right {
     margin-top: 15pt;
 }
 
-#piececontent img, #piececontent video {
+#piececontent img,
+#piececontent video {
     width: 100%;
     border-radius: 5pt;
 }
@@ -415,6 +432,7 @@ br {
     width: 0 !important;
     height: 0 !important;
 }
+
 footer {
     color: rgb(250, 250, 253);
 }
@@ -423,28 +441,29 @@ footer {
     #title {
         font-size: 130pt;
     }
-    
+
     section {
         padding: 0pt 50pt;
     }
-    
+
     #contentwrapper {
         width: 100%;
         transform-origin: bottom center;
+        -webkit-transform-origin: bottom center;
     }
-    
+
     #work {
         align-items: flex-end;
     }
-    
+
     #closebutton {
         right: 48%;
     }
-    
+
     #pieceaboutauthor {
         flex-direction: column;
     }
-    
+
     #pieceprofile {
         align-self: center;
         width: 100pt;

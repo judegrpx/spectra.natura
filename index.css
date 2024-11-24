@@ -1,6 +1,7 @@
 body {
     background: url('./assets/home/background/layer1.png');
     background-size: cover !important;
+    background-size: cover !important;
     height: 100vh;
 }
 
@@ -31,8 +32,10 @@ header {
     margin: 0;
     padding: 0;
     transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
     position: absolute;
     transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
 }
 
 #title h1 {
