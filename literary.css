@@ -1,5 +1,3 @@
-
-
 #tab {
     position: fixed;
     top: 0;
@@ -20,7 +18,7 @@
     right: 0;
     z-index: 2;
     font-size: 12pt;
-    width:fit-content;
+    width: fit-content;
     text-transform: capitalize;
     background-color: rgba(250, 250, 253, 0.8);
     backdrop-filter: blur(10pt) saturate(2.1);
@@ -68,7 +66,19 @@
     transition-duration: 2s;
 }
 
-#layer1, #layer2, #layer3, #layer4, #layer5, #layer6, #layer7, #layer8, #layer9, #layer10, #layer11, #layer111, #layer12 {
+#layer1,
+#layer2,
+#layer3,
+#layer4,
+#layer5,
+#layer6,
+#layer7,
+#layer8,
+#layer9,
+#layer10,
+#layer11,
+#layer111,
+#layer12 {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -77,54 +87,68 @@
 }
 
 #layer1 {
-    transform: translateZ(-100pt) scale(2.1); /*adjust*/
+    transform: translateZ(-100pt) scale(2.1);
+    /*adjust*/
 }
 
 #layer2 {
-    transform: translateZ(-100pt) scale(2.1); /*adjust*/
+    transform: translateZ(-100pt) scale(2.1);
+    /*adjust*/
 }
 
 #layer3 {
-    transform: translateZ(-98pt) scale(calc(1 + 98/99)); /*adjust*/
+    transform: translateZ(-98pt) scale(calc(1 + 98/99));
+    /*adjust*/
 }
 
-#layer4{
-    transform: translateZ(-70pt) scale(calc(1 + 70/99)); /*adjust*/
+#layer4 {
+    transform: translateZ(-70pt) scale(calc(1 + 70/99));
+    /*adjust*/
 }
 
-#layer5{
-    transform: translateZ(-60pt) scale(calc(1 + 60/99)); /*adjust*/
+#layer5 {
+    transform: translateZ(-60pt) scale(calc(1 + 60/99));
+    /*adjust*/
 }
+
 #layer6 {
-    transform: translateZ(-50pt) scale(calc(1 + 50/99)); /*adjust*/
+    transform: translateZ(-50pt) scale(calc(1 + 50/99));
+    /*adjust*/
 }
 
 #layer7 {
-    transform: translateZ(-30pt) scale(calc(1 + 30/99)); /*adjust*/
+    transform: translateZ(-30pt) scale(calc(1 + 30/99));
+    /*adjust*/
 }
 
 #layer8 {
-    transform: translateZ(-20pt) scale(calc(1 + 20/99)); /*adjust*/
+    transform: translateZ(-20pt) scale(calc(1 + 20/99));
+    /*adjust*/
 }
 
 #layer9 {
-    transform: translateZ(-10pt) scale(calc(1 + 10/99)); /*adjust*/
+    transform: translateZ(-10pt) scale(calc(1 + 10/99));
+    /*adjust*/
 }
 
 #layer10 {
-    transform: translateZ(-0pt) scale(1); /*adjust*/
+    transform: translateZ(-0pt) scale(1);
+    /*adjust*/
 }
 
 #layer111 {
-    transform: translateZ(0pt) scale(1); /*adjust*/
+    transform: translateZ(0pt) scale(1);
+    /*adjust*/
 }
 
 #layer11 {
-    transform: translateZ(0pt) scale(1); /*adjust*/
+    transform: translateZ(0pt) scale(1);
+    /*adjust*/
 }
 
 #layer12 {
-    transform: translateZ(1pt) scale(2); /*adjust*/
+    transform: translateZ(1pt) scale(2);
+    /*adjust*/
 }
 
 
@@ -153,7 +177,7 @@ section {
     align-content: stretch;
 }
 
-section > div {
+section>div {
     /* border: solid 1pt rgb(16, 27, 57, 0.4); */
     border: solid 1pt rgb(16, 27, 57, 0.4);
     border-radius: 5pt;
@@ -165,12 +189,12 @@ section > div {
     cursor: pointer;
 }
 
-section > div > img.left {
+section>div>img.left {
     height: 100pt;
     margin: -30pt 20pt 0pt -80pt;
 }
 
-section > div > img.right {
+section>div>img.right {
     height: 100pt;
     transform: rotate(180deg);
     margin: 0pt 20pt -50pt -60pt;
@@ -279,7 +303,7 @@ section > div > img.right {
 }
 
 #piececontent {
-    margin: 50pt  0pt;
+    margin: 50pt 0pt;
 }
 
 
@@ -292,7 +316,8 @@ section > div > img.right {
     border-radius: 5pt;
 }
 
-#piececontent, #piececontent * {
+#piececontent,
+#piececontent * {
     font-family: "Old Standard TT", serif;
     font-size: 13pt;
 }
@@ -338,7 +363,7 @@ hr {
     height: 80pt;
     background-color: white;
     border-radius: 5pt;
-    border: solid 2pt rgba(15,15,18,0.05);
+    border: solid 2pt rgba(15, 15, 18, 0.05);
 }
 
 #pieceauthordesc {
@@ -361,21 +386,13 @@ hr {
     margin-top: 5pt;
 }
 
-#authordesc a, #piececontent a {
+#authordesc a,
+#piececontent a {
     text-transform: none;
     color: rgb(219, 10, 115);
     font-weight: normal;
 }
 
-#loading {
-    z-index: 2;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+footer {
+    color: rgb(250, 250, 253);
 }
