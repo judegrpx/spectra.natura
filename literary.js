@@ -51,7 +51,7 @@ var info = {
         "title": "Intertwined",
         "author": "Esther Jireh M. Cielo",
         "about": "ESTHER JIREH CIELO, a 21-year-old forestry student from Tarlac, is someone who is as at home in the world of trees as they are in the realm of words. She has a love for poetry and a nose buried in books. A former photojournalist in her elementary and high school years, Jireh captures moments through both images and words. When she is not immersed in her studies or writing, you can find her scrolling through tiktok, where ideas bloom in 60 seconds.",
-        "profile": "./assets/literary/<lastname>/icon.jpg",
+        "profile": "./assets/literary/cielo/icon.jpg",
         "piece": "<p style='text-align: center'>Science seeks answers, chart the skies,<br>Art finds beauty in unseen ties.<br>The future whispers, a mystery untold,<br>Where faith and reason both take hold.<br><br>Dreams may waver, doubts may rise,<br>But God’s plan works beyond our eyes.<br>In stars, in thoughts, in every breath,<br>Faith and science dance with death.</p>",
         "description": "In this poem, I reflect on the delicate balance between science and faith in a world shaped by technology and societal progress. While science strives to explain the unknown, faith gives us hope when answers seem out of reach. It is a human story of reason and belief working together, reminding us that the future is shaped not just by what we know, but also by what we trust and dream of.",
     },

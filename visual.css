@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     background-color: rgba(250, 250, 253, 0.5);
-    backdrop-filter: blur(50px) saturate(2.1);
+    backdrop-filter: blur(50pt) saturate(2.1);
     display: flex;
     flex-direction: row;
     padding: 10pt 50pt;
@@ -162,7 +162,7 @@
     z-index: -1;
     font-weight: 800;
     text-transform: uppercase;
-    text-shadow: -1px -2px 29px rgba(17, 9, 129, 0.21);
+    text-shadow: -1pt -2pt 29pt rgba(17, 9, 129, 0.21);
 }
 
 section {
@@ -170,15 +170,19 @@ section {
     background-color:#0F1923;
     padding: 0pt 100pt;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
     column-gap: 50pt;
     /* row-gap: 50pt; */
     align-content: stretch;
+    justify-content: center;
+    overflow: hidden;
 }
 
 section img {
     width: 200pt;
+    margin-top: -20pt;
+    z-index: 0;
 }
 
 section img:hover {
@@ -295,7 +299,7 @@ section>div>img.right {
     height: 25pt;
     background-color: white;
     border: solid 1pt rgba(16, 27, 57, 0.4);
-    border-radius: 20px;
+    border-radius: 20pt;
     color: rgb(16, 27, 57);
     z-index: 1;
 }
@@ -324,7 +328,7 @@ section>div>img.right {
     margin-top: 15pt;
 }
 
-#piececontent img {
+#piececontent img, #piececontent video {
     width: 100%;
     border-radius: 5pt;
 }
@@ -365,7 +369,7 @@ hr {
     margin-top: 50pt;
     gap: 20pt;
     border-radius: 3pt;
-    /* border: solid 1px #0F1923; */
+    /* border: solid 1pt #0F1923; */
 }
 
 #authordesc * {
@@ -392,7 +396,7 @@ hr {
     font-weight: 600;
     color: rgb(219, 10, 115);
     padding-bottom: 5pt;
-    border-bottom: solid 1px rgb(219, 10, 115);
+    border-bottom: solid 1pt rgb(219, 10, 115);
 }
 
 #authordesc {
@@ -415,13 +419,13 @@ footer {
     color: rgb(250, 250, 253);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000pt) {
     #title {
-        font-size: 100pt;
+        font-size: 200pt;
     }
     
     section {
-        padding: 50pt;
+        padding: 0pt 50pt;
     }
     
     #contentwrapper {

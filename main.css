@@ -33,7 +33,7 @@ footer {
     justify-content: center;
 }
 
-#loading p {
+#loading p, #pieceloading {
     animation-name: loadinganim;
     animation-duration: 1s;
     animation-iteration-count: infinite;
