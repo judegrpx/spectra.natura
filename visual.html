@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css?version=3">
+    <link rel="stylesheet" href="visual.css?version=3">
+    <link rel="icon" type="image/x-icon" href="./resources/images/logo/website.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.js"></script>
+    <title>Visual | Natura Spectra</title>
+</head>
+
+<body>
+    <a href="./index.html" id="home">
+        <img src="./assets/icons/left arrow.png" width="20pt">
+        Home
+    </a>
+    <div id="wrapper">
+        <div id="parallax">
+            <img src="./assets/visual/background/Layer 8.png" id="layer8">
+            <img src="./assets/visual/background/Layer 7.png" id="layer7">
+            <img src="./assets/visual/background/Layer 6.png" id="layer6">
+            <img src="./assets/visual/background/Layer 5.png" id="layer5">
+            <img src="./assets/visual/background/Layer 4.png" id="layer4">
+            <img src="./assets/visual/background/Layer 3.png" id="layer3">
+            <img src="./assets/visual/background/Layer 2.png" id="layer2">
+            <img src="./assets/visual/background/Layer 1.jpg" id="layer1">
+            <h1 id="title">visual</h1>
+        </div>
+        <section>
+            <img src="./assets/visual/tuazon/terrarium.png" onclick="showWork('tuazon')">
+            <img src="./assets/visual/timosan/terrarium.png" onclick="showWork('timosan')">
+        </section>
+        <footer>
+            Copyright &copy; 2024, Spectra Natura. All Rights Reserved.
+        </footer>
+    </div>
+    <div id="work">
+        <div id="contentwrapper">
+            <button id="closebutton" onclick="closeWork()"><img src="./assets/icons/close.png" width="20pt"></button>
+            <div class="content">
+                <div id="maincontent">
+                    <h1 id="piecetitle">Title</h1>
+                    <p id="pieceauthor">Author</p>
+                    <div id="piececontent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt illum vero
+                        unde itaque tempora veniam velit quaerat iusto? Eligendi illo voluptas itaque impedit temporibus
+                        vitae eius aliquam id cumque autem?
+                    </div>
+                    <p id="pieceabout">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quasi
+                        voluptatum officiis, aliquid maiores doloremque vitae ratione neque maxime hic aperiam ea sint
+                        libero totam ab cumque fuga tenetur cupiditate.</p>
+                    <div id="pieceaboutauthor">
+                        <img src="" alt="" id="pieceprofile">
+                        <div id="pieceauthordesc">
+                            <p id="authortitle">Author</p>
+                            <p id="authordesc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem eius
+                                iure assumenda nesciunt eligendi obcaecati porro quod aspernatur modi. Veritatis
+                                architecto perspiciatis eius, obcaecati dolor reprehenderit? Odit facere quia assumenda?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="loading">
+        <p>LOADING</p>
+    </div>
+    <script src="./visual.js?version=3"></script>
+</body>
+
+</html>
