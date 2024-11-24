@@ -180,8 +180,6 @@ function incrementCounter() {
         begin()
     }
 }
-}
-
 var wrapper = document.getElementById("wrapper");
 var parallax = document.getElementById("parallax");
 
@@ -192,4 +190,5 @@ function begin() {
         function() {
           wrapper.style.overflowY = 'auto';
     }, 2000);
+}
 }
