@@ -171,14 +171,15 @@ main {
     backdrop-filter: blur(50pt);
 }
 
-#about .header {
+.header {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10pt;
+    width: 100%;
 }
 
-#about .line {
+.line {
     height: 2pt;
     width: 100%;
     background-color: rgba(0, 49, 81, 0.5);
@@ -196,7 +197,93 @@ main {
     margin: 10pt 15pt;
 }
 
+#team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100pt 100pt 50pt 100pt; 
+}
+
 #team h1 {
+    display: inline-flex;
+    white-space: nowrap;
+    align-items: center;
+}
+
+
+#team h1 span {
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    text-transform: lowercase;
+    font-size: 15pt;
+    justify-self: center;
+    margin: 0pt 10pt;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    margin: 10pt;
+}
+
+.profile img {
+    width: 100pt;
+    height: 100pt;
+    border-radius: 50%;
+    border: solid 5pt rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.89);
+    /* filter: invert(9%) sepia(15%) saturate(6086%) hue-rotate(203deg) brightness(90%) contrast(96%); */
+    margin: auto;
+    /* filter: saturate(0); */
+}
+
+.profile p {
     text-align: center;
-    margin: 100pt 150pt;
+    font-size: 12pt;
+}
+
+.profile .name {
+    /* text-transform: uppercase; */
+    /* font-weight: 600; */
+    margin-top: 10pt;
+    font-size: 14pt;
+}
+
+.profile .position {
+    margin-top: 3pt;
+    opacity: 0.8;
+}
+
+.committee {
+    border: solid 1pt rgba(250, 250, 253, 0.8);
+    padding: 30pt;
+    border-radius: 5pt;
+    width: 100%;
+    background-color: rgba(250, 250, 253, 0.2);
+    backdrop-filter: blur(20pt) saturate(1.2);
+    box-shadow: rgba(149, 157, 165, 0.2) 0pt 8pt 24pt;
+    margin: 20pt 150pt 0pt 150pt;
+    gap: 20pt;
+}
+
+.committee h2 {
+    font-size: 12pt;
+    padding: 2pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* font-family: "Old Standard TT", serif; */
+}
+
+.headhead {
+    display: flex;
+    flex-direction: row;
+    margin: 20pt 0pt;
+}
+
+.members {
+    display: flex;
+    gap: 20pt;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
