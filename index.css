@@ -296,6 +296,11 @@ main {
         display: none;
     }
     
+    #links {
+        padding: 50pt 40pt;
+        justify-content: center;
+    }
+    
     main {
         width: 100%;
     }
@@ -307,8 +312,37 @@ main {
         gap: 50pt;
     }
     
+    #selection h2 {
+        line-height: 40pt;
+        font-size: 40pt;
+        text-transform: uppercase;
+        font-weight: 800;
+        align-self: flex-end;
+        margin: 0;
+        margin-bottom: -10pt;
+        padding: 0;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .quote {
+        margin: 0 0;
+    }
+    
     #visual,
     #literary {
-        width: 50%;
+        width: 70%;
+    }
+    
+    #about {
+        margin: 50pt 0pt;
+        border-radius: 0pt;
+    }
+    
+    #team {
+        margin: 100pt 50pt 50pt 50pt; 
+    }
+    
+    .header {
+        gap: 0pt;
     }
 }
