@@ -10,8 +10,8 @@
     scroll-behavior: smooth !important;
 }
 
-body {
-}
+::selection { background: transparent; }
+::-moz-selection { background: transparent; }
 
 a {
     text-decoration: none;
