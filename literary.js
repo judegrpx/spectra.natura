@@ -123,7 +123,7 @@ var info = {
         "title": "Curiosity’s First Taste",
         "author": "Jude Gabriel M. Padilla",
         "about": "JUDE GABRIEL M. PADILLA is a first-year undergraduate student at the University of the Philippines Los Baños (UPLB), pursuing a Bachelor of Science in Computer Science. When not immersed in the world of algorithms and academics, he can often be found wandering through the library's collection of classics or admiring his favorite campus companions—mischievous and charming cats.",
-        "profile": "./assets/literary/<lastname>/icon.jpg",
+        "profile": "./assets/literary/padilla/icon.jpg",
         "piece": "<p>Dearest Eve,</p><p>I have asked myself countless times: why the need to pluck the fruit? Why choose to suffer when everything you needed was in Eden? Were you not content with the glories it had offered? Had your taste gone stale, thus your thirst for the liquor of the forbidden?</p><p>What must it have felt like to be blamed for the uptorn of the world? To bear the weight of all humanity\’s wrongs?</p><p>Do you not think it was quite unfair of Him—to call your name from above the sky and warn you with a sly? To tell you that you are going to die.</p><p>Why indeed not eat? Why choose to resist? Why exist in a world that only asks you to subsist? What does it feel like—to die? To end the monotony of mere existence? Perhaps, these were the lingering questions in your unsettled mind, as temptation pierced your restless hand, while you stepped on the land of His prohibited ground.</p><p>Indeed, your innocence died. And your ignorance laid unhide.</p><p>Now, I understand. You were just a curious girl, like every child—full of whys and the will to wonder, bright and wild.</p><p>The death of innocence was not humanity\’s greatest fall. It was the rise of your children's creative soul. One that is meant to flourish, not veiled and buried in a lifeless soil.</p><p>Had you not sinned, we would forever be glued to the sky, nothing to wonder about—not even recognize the heavens above a moonlit night. The world would not even have stories to tame its aching heart.</p><p>Everything would have gone stale. Everything would have remained pale.</p><p>No artist would have strived to perfect his ways of strokes, his ways of sight, to immortalize the fleeting beauty of a moment as though for a monument. Even if they knew their imitation, with His greatest creation, could never compliment.</p><p>No philosopher would have bathed, even gone drowned, in the illusions of their thoughts. Gone seduced by the sirens of quarks and lights, mused by the numbers\’ morphing into a divine, just to enter and wander where the Supreme\’s wisdom resides.</p><p>Through you, we now see the world with open eyes—not simply experience this world as if blind, but to question, explore, and also transform those that loomed in our delicate mind.</p><p>Your mistake was an art. One an artist would proudly call their beautiful mark. Like how you had turned that apple when you gave it a bite.</p><p>A mark that exuded the essence of humanity. A mark which had brought beauty and depth to our vitality.</p><p>You, my mother and the mother of all, are the first scientist and artist before us all. For which our curiosity is your legacy that you earnestly fought for.</p><p>In a world of myriad possibilities, I will always choose the universe where the narrative of its beginning had you plucked the forbidden.</p><p>Sincerely,<br>Your Son</p>",
         "description": "This art piece is an ode to the eternal entanglement between curiosity and creation, where the rhythm of science finds its harmony in the strokes of art. It frames Eve, not as a sinner, but as the first scientist and artist—a mortal who dared to pluck the fruit of knowledge and, in doing so, birthed humanity’s legacy of wonder. The letter entwines the melody of curiosity and the morphing of sin into a pursuit of truth, blending them seamlessly with the raws of emotion and beauty of artistic expression. Through poetic contemplation, it transforms the forbidden act into a masterpiece—a mark of humanity’s insatiable thirst to question, to explore, to transform the world. Here, science becomes art, and art becomes science, as the pursuit of both collides in the moment Eve steps onto the grass of paradise, forever altering the trajectory of existence.",
     },
@@ -138,6 +138,7 @@ var info = {
 }
 
 var work = document.getElementById("work");
+var contentwrapper = document.getElementById("contentwrapper");
 var maincontent = document.getElementById("maincontent");
 var title = document.getElementById("piecetitle");
 var author = document.getElementById("pieceauthor");
@@ -147,24 +148,42 @@ var about = document.getElementById("authordesc");
 var profile = document.getElementById("pieceprofile");
 
 function showWork(id) {
-    work.style.display = "flex";
+
     title.innerHTML = info[id].title;
     author.innerHTML = info[id].author;
     content.innerHTML = info[id].piece;
     description.innerHTML = info[id].description;
     about.innerHTML = info[id].about;
     profile.src = info[id].profile;
-    maincontent.scrollTop = 0; 
+    work.style.display = "flex";
+    
+    setTimeout(
+        function() {
+            work.style.backgroundColor = "rgba(16, 27, 57, 0.4)";
+            work.style.backdropFilter = "blur(2pt) saturate(1.2)";
+            contentwrapper.style.scale = "1";
+            maincontent.scrollTop = 0; 
+        }, 1);
+
+    
 }
 
 function closeWork() {
-    work.style.display = "none";
+    work.style.backgroundColor = "rgba(16, 27, 57, 0)";
+    contentwrapper.style.scale = "0";
+    work.style.backdropFilter = "blur(0) saturate(1)";
+    setTimeout(
+        function() {
+            work.style.display = "none";
+        }, 250);
 }
 
+var loading = document.getElementById("loading");
 var wrapper = document.getElementById("wrapper");
 var parallax = document.getElementById("parallax");
 
 $(document).imagesLoaded( function() {
+    loading.style.display = "none";
     parallax.style.marginTop = "0";
     setTimeout(
         function() {
