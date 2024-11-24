@@ -162,11 +162,8 @@ function closeWork() {
 }
 
 
-
-
-
-
-var imgs = document.images,
+window.onload = (event) => {
+    var imgs = document.images,
     len = imgs.length,
     counter = 0;
 
@@ -182,6 +179,7 @@ function incrementCounter() {
     if ( counter === len ) {
         begin()
     }
+}
 }
 
 var wrapper = document.getElementById("wrapper");
