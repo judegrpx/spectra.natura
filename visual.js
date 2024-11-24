@@ -164,7 +164,7 @@ var info = {
         "about": "Breadan Anthony Jorge H. Paguirigan, a.k.a. Jorge, is a freshman Computer Science major at the University of the Philippines Los Baños. Hailing all the way from Bangar, La Union of Region 1, Jorge takes any challenges you throw his way.<br><br>He is highly adaptable and also an enthusiast at many things ranging from sports to reading to socializing.",
         "profile": "./assets/visual/paguirigan/icon.png",
         "title": "Curiosity Saves the Robot",
-        "piece": "<img src='./assets/visual/paguirigan/work.jpg'>",
+        "piece": "<img src='./assets/visual/paguirigan/work.png'>",
         "description": "Taking inspiration from Chris Sanders’ animated film, “The Wild Robot,” my art piece illuminates a robot pondering an unfamiliar peculiarity. In Sanders’ film, Roz, a service robot stranded on a human-less island, finds itself calling nature its home after accidentally decapitating the mother of a chick named Brightbill. Compelled to fulfill its duty as a service robot, Roz acted beyond its known programming in order to parent Brightbill, overcoming challenges along the way as it was never in its code to care for a wild animal.<br><br>My piece, titled Curiosity Saves the Robot, plays on the phrase, “curiosity kills the cat.” It emphasizes on how a fledgeling saves the robot a life of repetitiveness—allowing it to take the first step outside its machine cycle, i.e. fetching, decoding, and executing known programs. This act of curiosity illustrates how the unknown can lead to unimaginable outcomes and how venturing upon it can unlock a world of discovery and wonder.",
     },
     "angeles" : {
