@@ -175,6 +175,7 @@ section {
     column-gap: 50pt;
     row-gap: 50pt;
     align-content: stretch;
+    z-index: 1;
 }
 
 section>div {
