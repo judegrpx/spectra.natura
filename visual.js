@@ -18,9 +18,9 @@ var info = {
     "silva" : {
         "artist": "Samuel P. Silva",
         "about": "SAMUEL PEREZ SILVA is a Computer Science student currently residing in Calamba, Laguna. Alongside their academic pursuits, Sam discovered their talent for painting at an early age. Their creativity first shone through a vivid watercolor piece that captured the serene beauty of a countryside sunset, earning admiration from family and friends. Today, Sam continues to nurture both their technical expertise and artistic expression, embodying a balance between innovation and creativity.",
-        "profile": "./assets/visual/silva/icon.png",
+        "profile": "./assets/visual/silva/icon.jpg",
         "title": "Serenity in Layers",
-        "piece": "<img src='./assets/visual/silva/work.png'>",
+        "piece": "<img src='./assets/visual/silva/work.jpg'>",
         "description": "This artwork embodies the serene beauty and essence of nature, seamlessly merging art and science. The delicate relationship of the soft sky hues and towering silhouettes of evergreens reflects the vastness and complexity of the natural world. The moon, glowing softly amidst pastel skies, symbolizes the harmony between the celestial and terrestrial—giving connections that spark human curiosity.<br>The minimalist design highlights the grandeur of nature’s simplicity, celebrating its role as both muse and subject of scientific discovery. Nature’s layers—from the towering trees to the distant mountains—mirror humanity’s pursuit of understanding, unraveling the mysteries of existence one layer at a time.",
     },
     "olivo" : {
@@ -28,10 +28,10 @@ var info = {
         "about": "Rafael Sam G. Olivo, also known as 'Raf', is a 1st year BS Computer Science student. He is a 19-year old Rizaleño who loves to play volleyball and online games.<br>Rafael loves UPLB as the beauty of the campus captivated him during his first visit. He quickly fell in love with the serene atmosphere and refreshing breeze of the university.",
         "profile": "./assets/visual/olivo/icon.png",
         "title": "Broken Aspiration",
-        "piece": "<img src='./assets/visual/olivo/work.png'>",
+        "piece": "<img src='./assets/visual/olivo/work.jpg'>",
         "description": "The artwork shows Te Tifi, which symbolizes the beauty of the world we aspire to have. However, the broken polygons represent the destruction made by human actions. The mirror reflects the world we dream of, but it is slowly shattering due to humans' harmful activities.<br>Te Fiti's color transitioning from dark to light shades downward signifies the gradual changes in our environment. The blue background serves as a reflection for humans to see ourselves. As we look into the mirror, let us remember the beauty of the world given to us.",
     },
-    "eugenio" : {
+    "eugenio" : {//missing assets
         "artist": "Philip Eugenio",
         "about": "Philip James G. Eugenio, also known as Ames, is a second-year student at the University of the Philippines Los Baños majoring in Forestry. Philip, who comes all the way from Paniqui, Tarlac. He loves music beyond all else, but he has no taste for art. He expresses his views about the world through his passion, music. He is incredibly flexible and passionate about a wide range of activities, including socializing, performing instruments, and sports.",
         "profile": "./assets/visual/eugenio/icon.png",
@@ -44,7 +44,7 @@ var info = {
         "about": "MIGUEL G. TAN, a third-year Doctor of Veterinary Medicine student at the University of the Philippines Los Banos (UPLB), Laguna.<br>He was born on July 21, 2003, and raised in Manila.",
         "profile": "./assets/visual/tan/icon.png",
         "title": "The Brightest in the Barren",
-        "piece": "<img src='./assets/visual/tan/work.png'>",
+        "piece": "<img src='./assets/visual/tan/work.jpg'>",
         "description": "This illustration shows the resilience and strength of nature with its vast spectrum. A bright yellow flower emerges between the cracks of a dry, lifeless ground. Surrounding it is a rough, gray area. However, this contrast highlights the flower’s vibrant color, making it appear even more striking. Soft sunlight beams down, giving a gentle, hopeful feeling. This reminds us that even in the toughest conditions, life can find a way to bloom. The little flower symbolizes strength and determination, encouraging us to never give up, no matter how difficult life may seem. It shows that there is always hope, and as long as we keep moving forward, there is always a way to grow and shine our brightest.",
     },
     "torres" : {
@@ -52,7 +52,7 @@ var info = {
         "about": "MARCK TORRES is a Computer Science student from Calamba, Laguna, known for challenging conventional boundaries and making his output both intriguing and multifaceted.<br>His background includes writing poetry and creating digital arts, which led him to explore the field of manga comics. His work often incorporates spontaneity and variety, drawing from diverse inspirations to craft pieces that feel fresh and engaging.",
         "profile": "./assets/visual/torres/icon.png",
         "title": "Surprise",
-        "piece": "<img src='./assets/visual/torres/work.png'>",
+        "piece": "<img src='./assets/visual/torres/1.png'><img src='./assets/visual/torres/2.png'><img src='./assets/visual/torres/3.png'><img src='./assets/visual/torres/4.png'>",
         "description": "A one-shot comic offering a goofy prank while portraying the rubbish idea of what humanity is doing to the natural environment. The story follows a callous garbage truck driver whose actions reveal a chilling disregard for the environment.  It utilizes absurdity to mimic the contribution of small, specific actions on the combusting pile of consequences. It wants to culminate the impact of our choices on the world around us, leaving the reader questioning the true nature of the characters and the consequences of their actions.",
     },
     "solmoro" : {
@@ -66,12 +66,12 @@ var info = {
     "escobia" : {
         "artist": "John Bryan B. Escobia",
         "about": "",
-        "profile": "./assets/visual/escobia/icon.png",
+        "profile": "./assets/visual/escobia/icon.jpg",
         "title": "Asimov’s Garden",
         "piece": "<img src='./assets/visual/escobia/work.png'>",
         "description": "\"Asimov's Garden\" depicts a future where hope blooms in unexpected ways. Inspired by the movie “The Wild Robot (2024)”, the artwork presents a gentle robot who has discovered a new purpose far from its original program—not in serving humanity, but in nurturing the very nature that has reclaimed our world. This mechanical being has grown beyond its directives—finding family in a loyal dog, making friends with curious geese, and earning the trust of colorful birds who now perch freely upon its metal frame.<br>The bright yellow house symbolizes the robot's newfound home in this new yet familiar world; its well-maintained appearance amidst the wild landscape represents how our mechanical friend has found its way to create order and meaning in nature. The weathered dock with its wooden barrels and the simple well are not just intended for design but instead are signs of a carefully tended home. In the background, the ruins of our once-towering cities serve not as monuments to loss but as gardens for new life. Where nature can demonstrate its incredible power to heal and transform what was once broken with time.<br>This artwork integrates science and art by visualizing what could be considered as the relationship between artificial intelligence and natural life. Through this piece, I wanted to express how technology, despite its artificial origins, holds the potential to become a guardian of nature rather than its opponent and that even in a world where human civilization has faded, the best of what we created might live on to protect and nurture the world we left behind and perhaps even hope to make amends for the destruction we have caused in our species’ lifetime.",
     },
-    "tulang" : {
+    "tulang" : {//about
         "artist": "Joan Marie P. Tulang",
         "about": "N/A",
         "profile": "./assets/visual/tulang/icon.png",
