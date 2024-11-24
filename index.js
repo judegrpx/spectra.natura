@@ -1,5 +1,5 @@
 var loading = document.getElementById("loading");
 
-$(document).imagesLoaded( function() {
+$(document).imagesLoaded(function () {
     loading.style.display = "none";
-  });
+});
