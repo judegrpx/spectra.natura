@@ -39,7 +39,7 @@ footer {
 
 #loading p, #pieceloading {
     animation-name: loadinganim;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
