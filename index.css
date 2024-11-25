@@ -359,6 +359,7 @@ main {
 }
 
 @media screen and (max-width: 800pt) {
+    
     header {
         width: 0%;
         display: none;
@@ -410,6 +411,7 @@ main {
     #about {
         margin: 50pt 0pt;
         border-radius: 0pt;
+        padding: 50pt 30pt 50pt 30pt;
     }
     
     #team {
