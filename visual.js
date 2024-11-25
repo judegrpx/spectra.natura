@@ -187,9 +187,7 @@ var description = document.getElementById("pieceabout");
 var about = document.getElementById("authordesc");
 var profile = document.getElementById("pieceprofile");
 
-function showWork(id) {
-    hasLoaded();
-    
+function showWork(id) {    
     title.innerHTML = info[id].title;
     author.innerHTML = info[id].artist;
     content.innerHTML = info[id].piece;
@@ -229,17 +227,6 @@ window.onload = function () {
             wrapper.style.overflowY = 'auto';
         }, 1800);
 };
-
-
-function hasLoaded() {
-    var pieceloading = document.getElementById("pieceloading");
-    
-    pieceloading.style.display = "block";
-    
-    jQuery(content).ready(function() {
-        pieceloading.style.display = "none";
-    });
-}
 
 var url_string = window.location;
 var url = new URL(url_string);
