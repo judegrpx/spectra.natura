@@ -236,18 +236,18 @@ section>div>img.right {
 
 .type {
     /* border-bottom: solid 1pt rgb(16, 27, 57, 0.25); */
-    border-bottom: solid 1pt rgb(219, 10, 115, 0.25);
+    border-bottom: solid 1pt rgb(10, 24, 219, 0.25);
     padding: 0 5pt 3pt 5pt;
     text-transform: uppercase;
     font-weight: 500;
     /* color: rgba(15, 25, 35, 0.75); */
-    color: rgba(219, 10, 115, 0.75);
+    color: rgba(10, 24, 219, 0.75);
     margin: 0 -5pt 5pt -5pt;
 }
 
 .title {
     font-family: "Old Standard TT", serif;
-    /* color: rgb(219, 10, 115); */
+    /* color: rgb(10, 24, 219); */
     /* font-size: 30pt; */
 }
 
@@ -323,7 +323,7 @@ section>div>img.right {
 #piecetitle {
     /* font-family: "Old Standard TT", serif; */
     text-align: center;
-    color: rgb(219, 10, 115);
+    color: rgb(10, 24, 219);
 }
 
 #pieceauthor {
@@ -368,7 +368,7 @@ hr {
     padding: 15pt 30pt;
     font-size: 13pt;
     text-align: justify;
-    border-left: solid 2pt rgb(219, 10, 115);
+    border-left: solid 2pt rgb(10, 24, 219);
     margin: 0pt;
 }
 
@@ -411,9 +411,9 @@ hr {
 #authortitle {
     text-transform: uppercase;
     font-weight: 600;
-    color: rgb(219, 10, 115);
+    color: rgb(10, 24, 219);
     padding-bottom: 5pt;
-    border-bottom: solid 1pt rgb(219, 10, 115);
+    border-bottom: solid 1pt rgb(10, 24, 219);
 }
 
 #authordesc {
@@ -424,7 +424,7 @@ hr {
 #authordesc a,
 #piececontent a {
     text-transform: none;
-    color: rgb(219, 10, 115);
+    color: rgb(10, 24, 219);
     font-weight: normal;
 }
 
