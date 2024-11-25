@@ -240,3 +240,11 @@ function hasLoaded() {
         pieceloading.style.display = "none";
     });
 }
+
+var url_string = window.location;
+var url = new URL(url_string);
+var namee = url.searchParams.get("name");
+
+if (namee != null) {
+    showWork(namee)
+}
