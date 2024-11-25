@@ -182,14 +182,14 @@ var loading = document.getElementById("loading");
 var wrapper = document.getElementById("wrapper");
 var parallax = document.getElementById("parallax");
 
-$(document).imagesLoaded(function () {
+window.onload = function () {
     loading.style.display = "none";
     parallax.style.marginTop = "0";
     setTimeout(
         function () {
             wrapper.style.overflowY = 'auto';
         }, 1800);
-});
+};
 
 var url_string = window.location;
 var url = new URL(url_string);

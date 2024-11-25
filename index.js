@@ -30,7 +30,7 @@ var quotecontainer = document.getElementById("quotecontainer");
 var quote = document.getElementById("quote");
 var author = document.getElementById("author");
 
-$(document).imagesLoaded(function () {
+window.onload = function () {
     loading.style.display = "none";
     visual.style.margin = "0pt";
     literary.style.margin = "0pt";
@@ -44,8 +44,7 @@ $(document).imagesLoaded(function () {
             quotecontainer.style.opacity = "1";
 
         }, 1);
-
-});
+};
 
 var i = 0;
 
